@@ -1,8 +1,11 @@
 package com.hendisantika.productmanager.service;
 
+import com.hendisantika.productmanager.entity.Product;
 import com.hendisantika.productmanager.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * Created by IntelliJ IDEA.
@@ -17,4 +20,8 @@ import org.springframework.stereotype.Service;
 public class ProductService {
     @Autowired
     private ProductRepository productRepository;
+
+    public List<Product> listAll() {
+        return productRepository.findAll();
+    }
 }
