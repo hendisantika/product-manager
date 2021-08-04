@@ -32,4 +32,8 @@ public class ProductService {
     public Product get(Long id) {
         return productRepository.findById(id).get();
     }
+
+    public void delete(Long id) {
+        productRepository.deleteById(id);
+    }
 }
