@@ -7,7 +7,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
@@ -46,5 +48,15 @@ public class AppController {
         productService.save(product);
 
         return "redirect:/";
+    }
+
+    @GetMapping("/edit/{id}")
+    public ModelAndView showEditProductForm(@PathVariable(name = "id") Long id) {
+        ModelAndView mav = new ModelAndView("edit_product");
+
+        Product product = productService.get(id);
+        mav.addObject("product", product);
+
+        return mav;
     }
 }
