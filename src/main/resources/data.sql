@@ -8,15 +8,16 @@ INSERT INTO `roles` (`name`)
 VALUES ('ADMIN');
 
 INSERT INTO `users` (`username`, `password`, `enabled`)
-VALUES ('naruto', '$2a$10$cTUErxQqYVyU2qmQGIktpup5chLEdhD2zpzNEyYqmxrHHJbSNDOG.', '1');
+VALUES ('naruto', '$2a$12$31NKYMeyJzwmGxIE9xK4o.5ejWZGJmiqrkdHuE2/PYy46dTAqNJBW', '1');
 INSERT INTO `users` (`username`, `password`, `enabled`)
-VALUES ('sasuke', '$2a$10$.tP2OH3dEG0zms7vek4ated5AiQ.EGkncii0OpCcGq4bckS9NOULu', '1');
+VALUES ('sasuke', '$2a$12$31NKYMeyJzwmGxIE9xK4o.5ejWZGJmiqrkdHuE2/PYy46dTAqNJBW', '1');
 INSERT INTO `users` (`username`, `password`, `enabled`)
-VALUES ('kakashi', '$2a$10$E2UPv7arXmp3q0LzVzCBNeb4B4AtbTAGjkefVDnSztOwE7Gix6kea', '1');
+VALUES ('kakashi', '$2a$12$31NKYMeyJzwmGxIE9xK4o.5ejWZGJmiqrkdHuE2/PYy46dTAqNJBW', '1');
 INSERT INTO `users` (`username`, `password`, `enabled`)
-VALUES ('sakura', '$2a$10$GQT8bfLMaLYwlyUysnGwDu6HMB5G.tin5MKT/uduv2Nez0.DmhnOq', '1');
+VALUES ('sakura', '$2a$12$31NKYMeyJzwmGxIE9xK4o.5ejWZGJmiqrkdHuE2/PYy46dTAqNJBW', '1');
 INSERT INTO `users` (`username`, `password`, `enabled`)
-VALUES ('admin', '$2a$10$IqTJTjn39IU5.7sSCDQxzu3xug6z/LPU6IF0azE/8CkHCwYEnwBX.', '1');
+VALUES ('admin', '$2a$12$31NKYMeyJzwmGxIE9xK4o.5ejWZGJmiqrkdHuE2/PYy46dTAqNJBW.', '1');
+-- password: naruto2021
 
 INSERT INTO `users_roles` (`user_id`, `role_id`)
 VALUES (1, 1); -- user naruto has role USER
