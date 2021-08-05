@@ -31,5 +31,5 @@ public class Product {
     private String name;
     private String brand;
     private String madeIn;
-    private float price;
+    private double price;
 }
