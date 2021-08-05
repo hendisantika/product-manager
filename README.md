@@ -22,3 +22,6 @@ is for editing products; and the role ADMIN gives all permissions to the users.
 3. Change MySQL into your credentials in `application.properties` file
 4. Run the application: `mvn clean spring-boot:run`
 5. Open your favorite browser: http://localhost:8080/login
+
+### Screenshot
+
