@@ -25,3 +25,22 @@ is for editing products; and the role ADMIN gives all permissions to the users.
 
 ### Screenshot
 
+Login Page
+
+![Login Page](img/login.png "Login Page")
+
+Add New Product
+
+![Add New Product](img/add.png "Add New Product")
+
+List ALl Products
+
+![List ALl Products](img/list1.png "List ALl Products")
+
+![List ALl Products](img/list2.png "List ALl Products")
+
+![List ALl Products](img/list3.png "List ALl Products")
+
+Edit Product Page
+
+![Edit Product Page](img/edit.png "Edit Product Page")
